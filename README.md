@@ -1,4 +1,4 @@
-# Build An Alexa echo location Skill
+# Alexa skill : echo appointment info
 
 #### Description
 
