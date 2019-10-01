@@ -3,10 +3,11 @@
 #### Description
 
  This is a simple skill to demonstrate an approach to capture below appointment info
-     - location/address, duration, date, time
-     - single or multiple utterances
-     - these four input attributes can be uttered in any order
-     - with or without any pronouns (like at, for, from etc..)
+
+         - location/address, duration, date, time
+         - single or multiple utterances
+         - these four input attributes can be uttered in any order
+         - with or without any pronouns (like at, for, from etc..)
 
  This demo skill will look for the following information from user
         date
