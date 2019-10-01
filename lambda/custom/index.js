@@ -9,7 +9,7 @@ const LaunchRequestHandler = {
     },
     handle(handlerInput) {
         return handlerInput.responseBuilder
-            .speak("Welcome to Echo Location skill")
+            .speak("Welcome to Echo Location skill, please provide your appointment info")
             .reprompt("What would you like to ask?")
             .getResponse();
     }
@@ -158,10 +158,10 @@ function getSlotValues(filledSlots,handlerInput) {
   }, this);
 
   if (reprompt === '') {
-        slotValues["voice"] = `finding parking near ${voice} `;
+        slotValues["voice"] = `thanks, received all the required information for your appointment at ${voice}. Bye! `;
         slotValues["reprompt"] = 'NA';
   }else {
-        slotValues["voice"] = `thanks, now tell the ${reprompt}to find you a parking spot`;
+        slotValues["voice"] = `thanks, now tell the ${reprompt}to complete your appointment`;
         slotValues["reprompt"] = `Are you there ?`;
   }
   return slotValues;

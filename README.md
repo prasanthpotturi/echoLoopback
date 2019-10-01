@@ -23,10 +23,10 @@
 ### Sample Utterance demo
 ## Example - 1
     User Utterance 1 : open loopback
-    Alexa : Welcome to Echo Location skill
+    Alexa : Welcome to Echo Location skill, please provide your appointment info
 
     User Utterance 2 : 7th ave today at five p.m. for two hours
-    Alexa : received all the required information
+    Alexa : thanks, received all the required information for your appointment. Bye!
 
 ## Example - 2
     User Utterance 1 : open loopback
@@ -42,6 +42,19 @@
     Alexa : thanks, now tell the time, to complete your appointment
 
     User Utterance 5 : 8 a.m.
+    Alexa : thanks, received all the required information for your appointment. Bye!
+
+## Example - 3
+    User Utterance 1 : open loopback
+    Alexa : Welcome to Echo Location skill, please provide your appointment info
+
+    User Utterance 2 : two hours
+    Alexa : thanks, now tell the date, location time, to complete your appointment
+
+    User Utterance 3 : next friday from five p.m.
+    Alexa : thanks, now tell the location to complete your appointment
+
+    User Utterance 4 : seattle space needle
     Alexa : thanks, received all the required information for your appointment. Bye!
 
 ---
