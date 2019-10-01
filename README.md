@@ -10,10 +10,11 @@
          - with or without any pronouns (like at, for, from etc..)
 
  This demo skill will look for the following information from user
-        date
-        time
-        address or location
-        duration
+
+     - date
+     - time
+     - address or location
+     - duration
  Note: address implies postal address and location implies civic location/business locations
 
 #### Technical Details
