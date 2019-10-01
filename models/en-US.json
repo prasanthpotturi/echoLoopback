@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "loopback",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "EchoLocationIntent",
+                  "slots": [
+                      {
+                          "name": "duration",
+                          "type": "AMAZON.DURATION"
+                      },
+                      {
+                          "name": "location",
+                          "type": "AMAZON.CivicStructure"
+                      },
+                      {
+                          "name": "date",
+                          "type": "AMAZON.DATE"
+                      },
+                      {
+                          "name": "address",
+                          "type": "AMAZON.PostalAddress"
+                      },
+                      {
+                          "name": "time",
+                          "type": "AMAZON.TIME"
+                      }
+                  ],
+                  "samples": [
+                      "{location} {date} {time} {duration}",
+                      "{address} {date} {time} {duration}",
+                      "{date} {time} {duration} {address}",
+                      "{date} {time} {duration} {location}",
+                      "{time} {date} {duration} {location}",
+                      "{time} {date} {duration} {address}",
+                      "{time} {date} {duration}"
+                  ]
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": [
+                      "home"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
