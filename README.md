@@ -1,6 +1,44 @@
 # Build An Alexa echo location Skill
 
-### This is a simple skill to demonstrate an approach to capture address in single utterance or multiple utterances in any order, with or without any pronouns.
+#### Description
+
+This is a simple skill to demonstrate an approach to capture address in single utterance or multiple utterances in any order, with or without any pronouns.
+
+    This demo skill will look for the following information from user
+        date
+        time
+        address or location
+        duration
+    Note: address implies postal address and location implies civic location/business locations
+
+#### Technical Details
+    This Skills demonstrates some technical features such as
+    - Session Handling
+    - Handling Utterance without pronouns
+
+### Sample Utterance demo
+## Example - 1
+    User Utterance 1 : open loopback
+    Alexa : Welcome to Echo Location skill
+
+    User Utterance 2 : 7th ave today at five p.m. for two hours
+    Alexa : received all the required information
+
+## Example - 2
+    User Utterance 1 : open loopback
+    Alexa : Welcome to Echo Location skill, please provide your appointment info
+
+    User Utterance 2 : 7th ave
+    Alexa : thanks, now tell the duration, date, time, to complete your appointment
+
+    User Utterance 3 : two hours
+    Alexa : thanks, now tell the date, time, to complete your appointment
+
+    User Utterance 4 : today
+    Alexa : thanks, now tell the time, to complete your appointment
+
+    User Utterance 5 : 8 a.m.
+    Alexa : thanks, received all the required information for your appointment. Bye!
 
 ---
 
@@ -8,12 +46,9 @@
 
 ### Community
 * [Amazon Developer Forums](https://forums.developer.amazon.com/spaces/165/index.html) - Join the conversation!
-* [Hackster.io](https://www.hackster.io/amazon-alexa) - See what others are building with Alexa.
 
 ### Tutorials & Guides
 * [Voice Design Guide](https://developer.amazon.com/designing-for-voice/) - A great resource for learning conversational and voice user interface design.
-* [Codecademy: Learn Alexa](https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on Codecademy!
 
 ### Documentation
-* [Official Alexa Skills Kit Node.js SDK](https://www.npmjs.com/package/ask-sdk) - The Official Node.js SDK Documentation
 *  [Official Alexa Skills Kit Documentation](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html) - Official Alexa Skills Kit Documentation
