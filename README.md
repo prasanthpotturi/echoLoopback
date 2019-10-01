@@ -2,14 +2,18 @@
 
 #### Description
 
-This is a simple skill to demonstrate an approach to capture address in single utterance or multiple utterances in any order, with or without any pronouns.
+ This is a simple skill to demonstrate an approach to capture below appointment info
+     - location/address, duration, date, time
+     - single or multiple utterances
+     - these four input attributes can be uttered in any order
+     - with or without any pronouns (like at, for, from etc..)
 
-    This demo skill will look for the following information from user
+ This demo skill will look for the following information from user
         date
         time
         address or location
         duration
-    Note: address implies postal address and location implies civic location/business locations
+ Note: address implies postal address and location implies civic location/business locations
 
 #### Technical Details
     This Skills demonstrates some technical features such as
