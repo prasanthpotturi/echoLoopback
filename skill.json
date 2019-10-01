@@ -3,14 +3,12 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "capture address location utterances",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "Alexa open loopback"
           ],
           "name": "mfs",
-          "description": "Sample Full Description"
+          "description": "This is a simple skill to demonstrate an approach to capture address in single utterance or multiple utterances in any order, with or without any pronouns"
         }
       },
       "isAvailableWorldwide": true,
@@ -22,7 +20,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom",
-          "uri": "ask-custom-mfs-default"
+          "uri": "ask-custom-loopback-default"
         }
       }
     },
